@@ -151,6 +151,10 @@ body {
   transform-origin: 100% 100%;
 }
 
+.heart {
+  animation: pulse-heart 1s infinite;
+}
+
 @keyframes open {
   100% {
     transform: rotatex(180deg);
